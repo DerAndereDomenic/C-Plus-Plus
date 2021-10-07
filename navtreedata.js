@@ -135,14 +135,14 @@ var NAVTREEINDEX =
 "d1/d83/classuint256__t.html#aa28ae272e9176557133a10dffa3b94dc",
 "d2/dd4/structstd_1_1is__integral_3_01uint128__t_01_4.html",
 "d4/d68/qr__decompose_8h.html#a73ce637634fc49e1d10d190eb388ebf1",
-"d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md52",
-"d6/d80/double__hash__hash__table_8cpp.html#af4981819aae8bc7e7beeaef02615e30d",
+"d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md51",
+"d6/d80/double__hash__hash__table_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4",
 "d8/d69/classgraph_1_1_h_k_graph.html#a35893def7a1c5cd60907b4893117796f",
-"d9/d44/magic__number_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4",
-"da/dd3/namespacespirograph.html#a8e83a64e8443fff1e5ffdc1c299c1e99",
-"dc/d38/ordinary__least__squares__regressor_8cpp.html#af7243bdc6ae3c7169f01b85bb226e66a",
-"de/d00/classgraph_1_1is__graph__bipartite_1_1_graph.html",
-"dir_8c4128baa09a573ad2b8b8c0061a04c9.html"
+"d9/d44/magic__number_8cpp.html#a8d8e81a7cd59644b311ef9adb268f5f0",
+"da/dd3/namespacespirograph.html",
+"dc/d38/ordinary__least__squares__regressor_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4",
+"dd/d9c/classmachine__learning_1_1aystar__search_1_1_eight_puzzle.html#ade14b0e1a88543b91426e2008e4d0f99",
+"df/dd5/binary__search_8cpp.html#abf9e6b7e6f15df4b525a2e7705ba3089"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
