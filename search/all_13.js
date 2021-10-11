@@ -18,7 +18,7 @@ var searchData=
   ['randomlevel_15',['randomLevel',['../d4/d90/classdata__structures_1_1_skip_list.html#aa3f3813e9896792fc86b296547689ba4',1,'data_structures::SkipList']]],
   ['range_5ferror_16',['range_error',['http://en.cppreference.com/w/cpp/error/range_error.html',0,'std::range_error::range_error()'],['http://en.cppreference.com/w/cpp/error/range_error.html',0,'std::range_error']]],
   ['range_5fqueries_17',['range_queries',['../dd/d69/namespacerange__queries.html',1,'']]],
-  ['range_5ftries_18',['range_tries',['../dc/d97/classprobability_1_1geometric__distribution.html#a1af016f6437abfd09cb4099ea539e31b',1,'probability::geometric_distribution']]],
+  ['range_5ftries_18',['range_tries',['../da/d19/classprobability_1_1geometric__dist_1_1geometric__distribution.html#a12a4cc1cb76d6354d1f2f7ac56984434',1,'probability::geometric_dist::geometric_distribution']]],
   ['rank_19',['rank',['http://en.cppreference.com/w/cpp/types/rank.html',0,'std']]],
   ['ranlux24_20',['ranlux24',['http://en.cppreference.com/w/cpp/numeric/random/discard_block_engine/discard_block_engine.html',0,'std::ranlux24::ranlux24()'],['http://en.cppreference.com/w/cpp/numeric/random/discard_block_engine.html',0,'std::ranlux24']]],
   ['ranlux24_5fbase_21',['ranlux24_base',['http://en.cppreference.com/w/cpp/numeric/random/subtract_with_carry_engine/subtract_with_carry_engine.html',0,'std::ranlux24_base::ranlux24_base()'],['http://en.cppreference.com/w/cpp/numeric/random/subtract_with_carry_engine.html',0,'std::ranlux24_base']]],

@@ -87,7 +87,7 @@ var searchData=
   ['ctime_84',['ctime',['http://en.cppreference.com/w/cpp/chrono/c/ctime.html',0,'std']]],
   ['ctype_85',['ctype',['http://en.cppreference.com/w/cpp/locale/ctype/ctype.html',0,'std::ctype']]],
   ['ctype_5fbyname_86',['ctype_byname',['http://en.cppreference.com/w/cpp/locale/ctype_byname.html',0,'std::ctype_byname']]],
-  ['cumulative_5fdistribution_87',['cumulative_distribution',['../dc/d97/classprobability_1_1geometric__distribution.html#a7362f7161d86cd025888e55158033088',1,'probability::geometric_distribution']]],
+  ['cumulative_5fdistribution_87',['cumulative_distribution',['../da/d19/classprobability_1_1geometric__dist_1_1geometric__distribution.html#aa43332f78dbb486f356e663351887223',1,'probability::geometric_dist::geometric_distribution']]],
   ['curr_5fsymbol_88',['curr_symbol',['http://en.cppreference.com/w/cpp/locale/moneypunct/curr_symbol.html',0,'std::moneypunct_byname::curr_symbol()'],['http://en.cppreference.com/w/cpp/locale/moneypunct/curr_symbol.html',0,'std::moneypunct::curr_symbol()']]],
   ['current_5fexception_89',['current_exception',['http://en.cppreference.com/w/cpp/error/current_exception.html',0,'std']]],
   ['cyclesort_90',['cycleSort',['../de/d07/cycle__sort_8cpp.html#ae79a9d247691fce0d655fce75f1c04fa',1,'sorting::cycle_sort']]]

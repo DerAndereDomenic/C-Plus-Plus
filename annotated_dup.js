@@ -92,10 +92,12 @@ var annotated_dup =
       ] ]
     ] ],
     [ "probability", "d4/ded/namespaceprobability.html", [
+      [ "geometric_dist", null, [
+        [ "geometric_distribution", "da/d19/classprobability_1_1geometric__dist_1_1geometric__distribution.html", "da/d19/classprobability_1_1geometric__dist_1_1geometric__distribution" ]
+      ] ],
       [ "windowed_median", null, [
         [ "WindowedMedian", "df/d34/classprobability_1_1windowed__median_1_1_windowed_median.html", "df/d34/classprobability_1_1windowed__median_1_1_windowed_median" ]
-      ] ],
-      [ "geometric_distribution", "dc/d97/classprobability_1_1geometric__distribution.html", "dc/d97/classprobability_1_1geometric__distribution" ]
+      ] ]
     ] ],
     [ "quadratic_probing", "d4/dd2/namespacequadratic__probing.html", [
       [ "Entry", "da/dd1/structquadratic__probing_1_1_entry.html", "da/dd1/structquadratic__probing_1_1_entry" ]

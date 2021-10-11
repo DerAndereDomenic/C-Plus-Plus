@@ -1,6 +1,0 @@
-<map id="probability::geometric_distribution::range_tries" name="probability::geometric_distribution::range_tries">
-<area shape="rect" id="node1" title="This function computes the probability to have success in a given range of tries." alt="" coords="5,46,173,87"/>
-<area shape="rect" id="node2" href="$dc/d97/classprobability_1_1geometric__distribution.html#a7362f7161d86cd025888e55158033088" title="The cumulative distribution function." alt="" coords="221,5,387,61"/>
-<area shape="rect" id="node4" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/types/numeric_limits/max.html#" title=" " alt="" coords="221,85,387,112"/>
-<area shape="rect" id="node3" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/numeric/math/pow.html#" title=" " alt="" coords="435,20,507,47"/>
-</map>

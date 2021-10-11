@@ -20,7 +20,7 @@ var hierarchy =
     [ "linear_probing::Entry", "db/d19/structlinear__probing_1_1_entry.html", null ],
     [ "quadratic_probing::Entry", "da/dd1/structquadratic__probing_1_1_entry.html", null ],
     [ "FenwickTree", "dd/d91/class_fenwick_tree.html", null ],
-    [ "probability::geometric_distribution", "dc/d97/classprobability_1_1geometric__distribution.html", null ],
+    [ "probability::geometric_dist::geometric_distribution", "da/d19/classprobability_1_1geometric__dist_1_1geometric__distribution.html", null ],
     [ "Graph", "da/d9a/class_graph.html", null ],
     [ "graph::Graph< T >", "dc/d61/classgraph_1_1_graph.html", [
       [ "graph::RootedTree", "d0/d58/classgraph_1_1_rooted_tree.html", null ]
