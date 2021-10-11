@@ -1,9 +1,10 @@
 <map id="sample_test" name="sample_test">
-<area shape="rect" id="node1" title="Tests the sampling method of the geometric distribution." alt="" coords="5,137,99,163"/>
+<area shape="rect" id="node1" title="Tests the sampling method of the geometric distribution." alt="" coords="5,166,99,193"/>
 <area shape="rect" id="node2" href="$dc/d97/classprobability_1_1geometric__distribution.html#a8a3ce0b03a692250c1a314eb85110316" title="Generates a (discrete) sample according to the geometrical distribution." alt="" coords="154,41,334,83"/>
 <area shape="rect" id="node6" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/io/manip/endl.html#" title=" " alt="" coords="208,107,280,134"/>
 <area shape="rect" id="node7" href="$dc/d97/classprobability_1_1geometric__distribution.html#af098d2ba2ae150ef158790b34d20183c" title="The expected value of a geometrically distributed random variable X." alt="" coords="147,159,341,200"/>
-<area shape="rect" id="node8" href="$dc/d97/classprobability_1_1geometric__distribution.html#af466b4e51c24c3d71ac11d1a957411d4" title="The variance of a geometrically distributed random variable X." alt="" coords="168,224,320,265"/>
+<area shape="rect" id="node8" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/container/vector/resize.html#" title=" " alt="" coords="181,225,307,251"/>
+<area shape="rect" id="node9" href="$dc/d97/classprobability_1_1geometric__distribution.html#af466b4e51c24c3d71ac11d1a957411d4" title="The variance of a geometrically distributed random variable X." alt="" coords="168,276,320,317"/>
 <area shape="rect" id="node3" href="$d4/ded/namespaceprobability.html#a29f509e53d558dd9cb318048f2454d4b" title="Returns a random number between [0,1]." alt="" coords="401,5,543,47"/>
 <area shape="rect" id="node4" href="$dc/d97/classprobability_1_1geometric__distribution.html#afe8e3cec3f9ec89b697e674d1a4453cd" title="The inverse cumulative distribution function." alt="" coords="389,71,555,127"/>
 <area shape="rect" id="node5" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/numeric/math/log.html#" title=" " alt="" coords="603,86,668,113"/>

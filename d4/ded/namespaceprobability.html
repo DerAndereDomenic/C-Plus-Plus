@@ -115,7 +115,7 @@ Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Probability algorithms. </p>
 <p >for <a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a> - needed in testing</p>
-<p >for assert for math functions for fixed size data types for time to initialize rng for <a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> for <a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/types/numeric_limits.html">std::numeric_limits</a> for random numbers</p>
+<p >for assert for math functions for fixed size data types for time to initialize rng for <a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> for <a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/types/numeric_limits.html">std::numeric_limits</a> for random numbers for <a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a></p>
 <p >for assert for <a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/numeric/random/rand.html">std::rand</a> - needed in testing for <a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/chrono/c/time.html">std::time</a> - needed in testing for <a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/list.html">std::list</a> - used to manage sliding window for <a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/multiset.html">std::multiset</a> - used to manage multi-value sorted sliding window values</p>
 <p >Probability algorithms </p>
 </div><h2 class="groupheader">Function Documentation</h2>
@@ -136,9 +136,9 @@ Functions</h2></td></tr>
 
 <p>Returns a random number between [0,1]. </p>
 <dl class="section return"><dt>Returns</dt><dd>A uniformly distributed random number between 0 (included) and 1 (included) </dd></dl>
-<div class="fragment"><div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>                         {</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><span class="keywordtype">float</span><span class="keyword">&gt;</span>(rand()) / <span class="keyword">static_cast&lt;</span><span class="keywordtype">float</span><span class="keyword">&gt;</span>(RAND_MAX);</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>}</div>
+<div class="fragment"><div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>                         {</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><span class="keywordtype">float</span><span class="keyword">&gt;</span>(rand()) / <span class="keyword">static_cast&lt;</span><span class="keywordtype">float</span><span class="keyword">&gt;</span>(RAND_MAX);</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>}</div>
 </div><!-- fragment -->
 </div>
 </div>

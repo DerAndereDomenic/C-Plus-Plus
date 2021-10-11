@@ -107,10 +107,11 @@ $(document).ready(function(){initNavTree('de/d72/geometric__dist_8cpp.html','../
 <code>#include &lt;iostream&gt;</code><br />
 <code>#include &lt;limits&gt;</code><br />
 <code>#include &lt;random&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for geometric_dist.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d2c/geometric__dist_8cpp__incl.svg" width="588" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d2c/geometric__dist_8cpp__incl.svg" width="100%" height="395"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </div><table class="memberdecls">
@@ -205,40 +206,41 @@ Here is the call graph for this function:</div>
   </table>
   </dd>
 </dl>
-<div class="fragment"><div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>                                                          {</div>
-<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>    uint32_t n_tries = 1000000;</div>
-<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>    <span class="keyword">auto</span>* tries = <span class="keyword">new</span> <span class="keywordtype">float</span>[n_tries];</div>
-<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span> </div>
-<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>    <span class="keywordtype">float</span> mean = 0.0f;</div>
-<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>    <span class="keywordflow">for</span> (uint32_t i = 0; i &lt; n_tries; ++i) {</div>
-<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>        tries[i] = <span class="keyword">static_cast&lt;</span><span class="keywordtype">float</span><span class="keyword">&gt;</span>(dist.<a class="code hl_function" href="../../dc/d97/classprobability_1_1geometric__distribution.html#a8a3ce0b03a692250c1a314eb85110316">draw_sample</a>());</div>
-<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>        mean += tries[i];</div>
-<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>    }</div>
-<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span> </div>
-<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>    mean /= <span class="keyword">static_cast&lt;</span><span class="keywordtype">float</span><span class="keyword">&gt;</span>(n_tries);</div>
+<div class="fragment"><div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>                                                          {</div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>    uint32_t n_tries = 1000000;</div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>    <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;float&gt;</a> tries;</div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>    tries.<a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector/resize.html">resize</a>(n_tries);</div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span> </div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>    <span class="keywordtype">float</span> mean = 0.0f;</div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>    <span class="keywordflow">for</span> (uint32_t i = 0; i &lt; n_tries; ++i) {</div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>        tries[i] = <span class="keyword">static_cast&lt;</span><span class="keywordtype">float</span><span class="keyword">&gt;</span>(dist.<a class="code hl_function" href="../../dc/d97/classprobability_1_1geometric__distribution.html#a8a3ce0b03a692250c1a314eb85110316">draw_sample</a>());</div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>        mean += tries[i];</div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>    }</div>
 <div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span> </div>
-<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>    <span class="keywordtype">float</span> var = 0.0f;</div>
-<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>    <span class="keywordflow">for</span> (uint32_t i = 0; i &lt; n_tries; ++i) {</div>
-<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>        var += (tries[i] - mean) * (tries[i] - mean);</div>
-<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>    }</div>
-<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span> </div>
-<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>    <span class="comment">//Unbiased estimate of variance</span></div>
-<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>    var /= <span class="keyword">static_cast&lt;</span><span class="keywordtype">float</span><span class="keyword">&gt;</span>(n_tries - 1);</div>
-<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span> </div>
-<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>    <span class="keyword">delete</span>[] tries;</div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>    mean /= <span class="keyword">static_cast&lt;</span><span class="keywordtype">float</span><span class="keyword">&gt;</span>(n_tries);</div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span> </div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>    <span class="keywordtype">float</span> var = 0.0f;</div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>    <span class="keywordflow">for</span> (uint32_t i = 0; i &lt; n_tries; ++i) {</div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>        var += (tries[i] - mean) * (tries[i] - mean);</div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>    }</div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span> </div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>    <span class="comment">//Unbiased estimate of variance</span></div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>    var /= <span class="keyword">static_cast&lt;</span><span class="keywordtype">float</span><span class="keyword">&gt;</span>(n_tries - 1);</div>
 <div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span> </div>
 <div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>    <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;This value should be near &quot;</span> &lt;&lt; dist.<a class="code hl_function" href="../../dc/d97/classprobability_1_1geometric__distribution.html#af098d2ba2ae150ef158790b34d20183c">expected_value</a>() &lt;&lt; <span class="stringliteral">&quot;: &quot;</span> &lt;&lt; mean &lt;&lt; <a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
 <div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span>    <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;This value should be near &quot;</span> &lt;&lt; dist.<a class="code hl_function" href="../../dc/d97/classprobability_1_1geometric__distribution.html#af466b4e51c24c3d71ac11d1a957411d4">variance</a>() &lt;&lt; <span class="stringliteral">&quot;: &quot;</span> &lt;&lt; var &lt;&lt; <a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
 <div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>}</div>
 <div class="ttc" id="abasic_ostream_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a></div></div>
-<div class="ttc" id="aclassprobability_1_1geometric__distribution_html_a8a3ce0b03a692250c1a314eb85110316"><div class="ttname"><a href="../../dc/d97/classprobability_1_1geometric__distribution.html#a8a3ce0b03a692250c1a314eb85110316">probability::geometric_distribution::draw_sample</a></div><div class="ttdeci">uint32_t draw_sample()</div><div class="ttdoc">Generates a (discrete) sample according to the geometrical distribution.</div><div class="ttdef"><b>Definition:</b> geometric_dist.cpp:116</div></div>
-<div class="ttc" id="aclassprobability_1_1geometric__distribution_html_af098d2ba2ae150ef158790b34d20183c"><div class="ttname"><a href="../../dc/d97/classprobability_1_1geometric__distribution.html#af098d2ba2ae150ef158790b34d20183c">probability::geometric_distribution::expected_value</a></div><div class="ttdeci">float expected_value()</div><div class="ttdoc">The expected value of a geometrically distributed random variable X.</div><div class="ttdef"><b>Definition:</b> geometric_dist.cpp:60</div></div>
-<div class="ttc" id="aclassprobability_1_1geometric__distribution_html_af466b4e51c24c3d71ac11d1a957411d4"><div class="ttname"><a href="../../dc/d97/classprobability_1_1geometric__distribution.html#af466b4e51c24c3d71ac11d1a957411d4">probability::geometric_distribution::variance</a></div><div class="ttdeci">float variance()</div><div class="ttdoc">The variance of a geometrically distributed random variable X.</div><div class="ttdef"><b>Definition:</b> geometric_dist.cpp:68</div></div>
+<div class="ttc" id="aclassprobability_1_1geometric__distribution_html_a8a3ce0b03a692250c1a314eb85110316"><div class="ttname"><a href="../../dc/d97/classprobability_1_1geometric__distribution.html#a8a3ce0b03a692250c1a314eb85110316">probability::geometric_distribution::draw_sample</a></div><div class="ttdeci">uint32_t draw_sample()</div><div class="ttdoc">Generates a (discrete) sample according to the geometrical distribution.</div><div class="ttdef"><b>Definition:</b> geometric_dist.cpp:117</div></div>
+<div class="ttc" id="aclassprobability_1_1geometric__distribution_html_af098d2ba2ae150ef158790b34d20183c"><div class="ttname"><a href="../../dc/d97/classprobability_1_1geometric__distribution.html#af098d2ba2ae150ef158790b34d20183c">probability::geometric_distribution::expected_value</a></div><div class="ttdeci">float expected_value()</div><div class="ttdoc">The expected value of a geometrically distributed random variable X.</div><div class="ttdef"><b>Definition:</b> geometric_dist.cpp:61</div></div>
+<div class="ttc" id="aclassprobability_1_1geometric__distribution_html_af466b4e51c24c3d71ac11d1a957411d4"><div class="ttname"><a href="../../dc/d97/classprobability_1_1geometric__distribution.html#af466b4e51c24c3d71ac11d1a957411d4">probability::geometric_distribution::variance</a></div><div class="ttdeci">float variance()</div><div class="ttdoc">The variance of a geometrically distributed random variable X.</div><div class="ttdef"><b>Definition:</b> geometric_dist.cpp:69</div></div>
 <div class="ttc" id="aendl_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a></div><div class="ttdeci">T endl(T... args)</div></div>
+<div class="ttc" id="aresize_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/container/vector/resize.html">std::vector::resize</a></div><div class="ttdeci">T resize(T... args)</div></div>
+<div class="ttc" id="avector_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d72/geometric__dist_8cpp_a42df31ad2e41741e2b8ac4c3d1e900a0_cgraph.svg" width="100%" height="503"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d72/geometric__dist_8cpp_a42df31ad2e41741e2b8ac4c3d1e900a0_cgraph.svg" width="100%" height="542"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -318,8 +320,8 @@ Here is the call graph for this function:</div>
 <div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span> </div>
 <div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span> </div>
 <div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>}</div>
-<div class="ttc" id="aclassprobability_1_1geometric__distribution_html"><div class="ttname"><a href="../../dc/d97/classprobability_1_1geometric__distribution.html">probability::geometric_distribution</a></div><div class="ttdoc">A class to model the geometric distribution.</div><div class="ttdef"><b>Definition:</b> geometric_dist.cpp:45</div></div>
-<div class="ttc" id="ageometric__dist_8cpp_html_a42df31ad2e41741e2b8ac4c3d1e900a0"><div class="ttname"><a href="../../de/d72/geometric__dist_8cpp.html#a42df31ad2e41741e2b8ac4c3d1e900a0">sample_test</a></div><div class="ttdeci">void sample_test(probability::geometric_distribution &amp;dist)</div><div class="ttdoc">Tests the sampling method of the geometric distribution.</div><div class="ttdef"><b>Definition:</b> geometric_dist.cpp:145</div></div>
+<div class="ttc" id="aclassprobability_1_1geometric__distribution_html"><div class="ttname"><a href="../../dc/d97/classprobability_1_1geometric__distribution.html">probability::geometric_distribution</a></div><div class="ttdoc">A class to model the geometric distribution.</div><div class="ttdef"><b>Definition:</b> geometric_dist.cpp:46</div></div>
+<div class="ttc" id="ageometric__dist_8cpp_html_a42df31ad2e41741e2b8ac4c3d1e900a0"><div class="ttname"><a href="../../de/d72/geometric__dist_8cpp.html#a42df31ad2e41741e2b8ac4c3d1e900a0">sample_test</a></div><div class="ttdeci">void sample_test(probability::geometric_distribution &amp;dist)</div><div class="ttdoc">Tests the sampling method of the geometric distribution.</div><div class="ttdef"><b>Definition:</b> geometric_dist.cpp:146</div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
