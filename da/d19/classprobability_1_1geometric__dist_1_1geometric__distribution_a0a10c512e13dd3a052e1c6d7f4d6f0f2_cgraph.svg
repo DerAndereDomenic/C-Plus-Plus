@@ -38,7 +38,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../da/d19/classprobability_1_1geometric__dist_1_1geometric__distribution.html#a5541e43510e6194881aaa485288f9f66" target="_top" xlink:title="The variance of a geometrically distributed random variable X.">
+<g id="a_node3"><a xlink:href="../../da/d19/classprobability_1_1geometric__dist_1_1geometric__distribution.html#aea8b0d649f0dc9a6f8baf3341a0b4960" target="_top" xlink:title="The variance of a geometrically distributed random variable X.">
 <polygon fill="white" stroke="black" points="177,-0.5 177,-41.5 318,-41.5 318,-0.5 177,-0.5"/>
 <text text-anchor="start" x="185" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">probability::geometric</text>
 <text text-anchor="start" x="185" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">_dist::geometric_distribution</text>

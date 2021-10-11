@@ -119,7 +119,7 @@ var searchData=
   ['double_5flinked_5flist_116',['double_linked_list',['../d9/dee/classdouble__linked__list.html',1,'']]],
   ['doublehash_117',['doubleHash',['../d0/d65/namespacedouble__hashing.html#a8f8ff4fb018e1bb32d67d8a1885d3200',1,'double_hashing']]],
   ['dptable_118',['dpTable',['../dc/d14/wildcard__matching_8cpp.html#a4a5b107f93db24e424b12899fa692c5a',1,'backtracking::wildcard_matching']]],
-  ['draw_5fsample_119',['draw_sample',['../da/d19/classprobability_1_1geometric__dist_1_1geometric__distribution.html#a871b4877a7d077cd32c062198b3b2ac0',1,'probability::geometric_dist::geometric_distribution']]],
+  ['draw_5fsample_119',['draw_sample',['../da/d19/classprobability_1_1geometric__dist_1_1geometric__distribution.html#a8aae1cebcf42ed2332f1c7217c401aa3',1,'probability::geometric_dist::geometric_distribution']]],
   ['drelu_120',['drelu',['../d2/d58/neural__network_8cpp.html#aa69e95a34054d7989bf446f96b2ffaf9',1,'machine_learning::neural_network::activations']]],
   ['dsigmoid_121',['dsigmoid',['../d2/d58/neural__network_8cpp.html#a76eb66212d577f948a457b6e29d87c46',1,'machine_learning::neural_network::activations']]],
   ['dtanh_122',['dtanh',['../d2/d58/neural__network_8cpp.html#a2a5e874b9774aa5362dbcf288828b95c',1,'machine_learning::neural_network::activations']]],

@@ -23,7 +23,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../da/d19/classprobability_1_1geometric__dist_1_1geometric__distribution.html#aa43332f78dbb486f356e663351887223" target="_top" xlink:title="The cumulative distribution function.">
+<g id="a_node2"><a xlink:href="../../da/d19/classprobability_1_1geometric__dist_1_1geometric__distribution.html#a08328dc7d62188427111f176b56a105a" target="_top" xlink:title="The cumulative distribution function.">
 <polygon fill="white" stroke="black" points="177,-38.5 177,-79.5 318,-79.5 318,-38.5 177,-38.5"/>
 <text text-anchor="start" x="185" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">probability::geometric</text>
 <text text-anchor="start" x="185" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">_dist::geometric_distribution</text>

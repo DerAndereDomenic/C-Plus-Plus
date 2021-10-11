@@ -82,7 +82,7 @@ var sectionId = 'dynsection-2';
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../da/d19/classprobability_1_1geometric__dist_1_1geometric__distribution.html#aa43332f78dbb486f356e663351887223" target="_top" xlink:title="The cumulative distribution function.">
+<g id="a_node3"><a xlink:href="../../da/d19/classprobability_1_1geometric__dist_1_1geometric__distribution.html#a08328dc7d62188427111f176b56a105a" target="_top" xlink:title="The cumulative distribution function.">
 <polygon fill="white" stroke="black" points="320,-436.5 320,-477.5 461,-477.5 461,-436.5 320,-436.5"/>
 <text text-anchor="start" x="328" y="-465.5" font-family="Helvetica,sans-Serif" font-size="10.00">probability::geometric</text>
 <text text-anchor="start" x="328" y="-454.5" font-family="Helvetica,sans-Serif" font-size="10.00">_dist::geometric_distribution</text>
@@ -114,7 +114,7 @@ var sectionId = 'dynsection-2';
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="../../da/d19/classprobability_1_1geometric__dist_1_1geometric__distribution.html#ad3eed2b0bedece54f9ef73fac6ea1970" target="_top" xlink:title="The expected value of a geometrically distributed random variable X.">
+<g id="a_node6"><a xlink:href="../../da/d19/classprobability_1_1geometric__dist_1_1geometric__distribution.html#a41051365f8ac7700f2ed5880a6760413" target="_top" xlink:title="The expected value of a geometrically distributed random variable X.">
 <polygon fill="white" stroke="black" points="320,-196.5 320,-237.5 461,-237.5 461,-196.5 320,-196.5"/>
 <text text-anchor="start" x="328" y="-225.5" font-family="Helvetica,sans-Serif" font-size="10.00">probability::geometric</text>
 <text text-anchor="start" x="328" y="-214.5" font-family="Helvetica,sans-Serif" font-size="10.00">_dist::geometric_distribution</text>
@@ -131,7 +131,7 @@ var sectionId = 'dynsection-2';
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="../../da/d19/classprobability_1_1geometric__dist_1_1geometric__distribution.html#ae2e9e35714c138f536c1b9915c5497b4" target="_top" xlink:title="The inverse cumulative distribution function.">
+<g id="a_node7"><a xlink:href="../../da/d19/classprobability_1_1geometric__dist_1_1geometric__distribution.html#aaf762e88c66918d7afda4234f28a7ddf" target="_top" xlink:title="The inverse cumulative distribution function.">
 <polygon fill="white" stroke="black" points="497,-246.5 497,-287.5 659,-287.5 659,-246.5 497,-246.5"/>
 <text text-anchor="start" x="505" y="-275.5" font-family="Helvetica,sans-Serif" font-size="10.00">probability::geometric</text>
 <text text-anchor="start" x="505" y="-264.5" font-family="Helvetica,sans-Serif" font-size="10.00">_dist::geometric_distribution</text>
@@ -148,7 +148,7 @@ var sectionId = 'dynsection-2';
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
-<g id="a_node9"><a xlink:href="../../da/d19/classprobability_1_1geometric__dist_1_1geometric__distribution.html#a15b6cb4a96ded71265d586b0d048b798" target="_top" xlink:title="The probability density function.">
+<g id="a_node9"><a xlink:href="../../da/d19/classprobability_1_1geometric__dist_1_1geometric__distribution.html#aee973db9f0435e0cb4cc70f8eb3447a1" target="_top" xlink:title="The probability density function.">
 <polygon fill="white" stroke="black" points="143,-332.5 143,-373.5 284,-373.5 284,-332.5 143,-332.5"/>
 <text text-anchor="start" x="151" y="-361.5" font-family="Helvetica,sans-Serif" font-size="10.00">probability::geometric</text>
 <text text-anchor="start" x="151" y="-350.5" font-family="Helvetica,sans-Serif" font-size="10.00">_dist::geometric_distribution</text>
@@ -165,7 +165,7 @@ var sectionId = 'dynsection-2';
 <!-- Node10 -->
 <g id="node10" class="node">
 <title>Node10</title>
-<g id="a_node10"><a xlink:href="../../da/d19/classprobability_1_1geometric__dist_1_1geometric__distribution.html#a12a4cc1cb76d6354d1f2f7ac56984434" target="_top" xlink:title="This function computes the probability to have success in a given range of tries.">
+<g id="a_node10"><a xlink:href="../../da/d19/classprobability_1_1geometric__dist_1_1geometric__distribution.html#a4620163a196709484225774d87de6d69" target="_top" xlink:title="This function computes the probability to have success in a given range of tries.">
 <polygon fill="white" stroke="black" points="143,-392.5 143,-433.5 284,-433.5 284,-392.5 143,-392.5"/>
 <text text-anchor="start" x="151" y="-421.5" font-family="Helvetica,sans-Serif" font-size="10.00">probability::geometric</text>
 <text text-anchor="start" x="151" y="-410.5" font-family="Helvetica,sans-Serif" font-size="10.00">_dist::geometric_distribution</text>
@@ -197,7 +197,7 @@ var sectionId = 'dynsection-2';
 <!-- Node16 -->
 <g id="node16" class="node">
 <title>Node16</title>
-<g id="a_node16"><a xlink:href="../../da/d19/classprobability_1_1geometric__dist_1_1geometric__distribution.html#a5541e43510e6194881aaa485288f9f66" target="_top" xlink:title="The variance of a geometrically distributed random variable X.">
+<g id="a_node16"><a xlink:href="../../da/d19/classprobability_1_1geometric__dist_1_1geometric__distribution.html#aea8b0d649f0dc9a6f8baf3341a0b4960" target="_top" xlink:title="The variance of a geometrically distributed random variable X.">
 <polygon fill="white" stroke="black" points="320,-38.5 320,-79.5 461,-79.5 461,-38.5 320,-38.5"/>
 <text text-anchor="start" x="328" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">probability::geometric</text>
 <text text-anchor="start" x="328" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">_dist::geometric_distribution</text>
@@ -214,7 +214,7 @@ var sectionId = 'dynsection-2';
 <!-- Node17 -->
 <g id="node17" class="node">
 <title>Node17</title>
-<g id="a_node17"><a xlink:href="../../da/d19/classprobability_1_1geometric__dist_1_1geometric__distribution.html#abb59cd3a72bc329a515b4a38ff20071c" target="_top" xlink:title="The standard deviation of a geometrically distributed random variable X.">
+<g id="a_node17"><a xlink:href="../../da/d19/classprobability_1_1geometric__dist_1_1geometric__distribution.html#a0a10c512e13dd3a052e1c6d7f4d6f0f2" target="_top" xlink:title="The standard deviation of a geometrically distributed random variable X.">
 <polygon fill="white" stroke="black" points="143,-38.5 143,-79.5 284,-79.5 284,-38.5 143,-38.5"/>
 <text text-anchor="start" x="151" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">probability::geometric</text>
 <text text-anchor="start" x="151" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">_dist::geometric_distribution</text>
@@ -300,7 +300,7 @@ var sectionId = 'dynsection-2';
 <!-- Node13 -->
 <g id="node13" class="node">
 <title>Node13</title>
-<g id="a_node13"><a xlink:href="../../da/d19/classprobability_1_1geometric__dist_1_1geometric__distribution.html#a871b4877a7d077cd32c062198b3b2ac0" target="_top" xlink:title="Generates a (discrete) sample according to the geometrical distribution.">
+<g id="a_node13"><a xlink:href="../../da/d19/classprobability_1_1geometric__dist_1_1geometric__distribution.html#a8aae1cebcf42ed2332f1c7217c401aa3" target="_top" xlink:title="Generates a (discrete) sample according to the geometrical distribution.">
 <polygon fill="white" stroke="black" points="320,-136.5 320,-177.5 461,-177.5 461,-136.5 320,-136.5"/>
 <text text-anchor="start" x="328" y="-165.5" font-family="Helvetica,sans-Serif" font-size="10.00">probability::geometric</text>
 <text text-anchor="start" x="328" y="-154.5" font-family="Helvetica,sans-Serif" font-size="10.00">_dist::geometric_distribution</text>

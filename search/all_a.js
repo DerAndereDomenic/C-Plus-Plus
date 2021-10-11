@@ -74,7 +74,7 @@ var searchData=
   ['intptr_5ft_71',['intptr_t',['http://en.cppreference.com/w/cpp/types/integer.html',0,'std']]],
   ['inv_5fsqrt_2ecpp_72',['inv_sqrt.cpp',['../d6/db8/inv__sqrt_8cpp.html',1,'']]],
   ['invalid_5fargument_73',['invalid_argument',['http://en.cppreference.com/w/cpp/error/invalid_argument.html',0,'std::invalid_argument::invalid_argument()'],['http://en.cppreference.com/w/cpp/error/invalid_argument.html',0,'std::invalid_argument']]],
-  ['inverse_5fcumulative_5fdistribution_74',['inverse_cumulative_distribution',['../da/d19/classprobability_1_1geometric__dist_1_1geometric__distribution.html#ae2e9e35714c138f536c1b9915c5497b4',1,'probability::geometric_dist::geometric_distribution']]],
+  ['inverse_5fcumulative_5fdistribution_74',['inverse_cumulative_distribution',['../da/d19/classprobability_1_1geometric__dist_1_1geometric__distribution.html#aaf762e88c66918d7afda4234f28a7ddf',1,'probability::geometric_dist::geometric_distribution']]],
   ['inversion_75',['inversion',['../d9/d13/namespaceinversion.html',1,'']]],
   ['ios_5fbase_76',['ios_base',['http://en.cppreference.com/w/cpp/io/ios_base/ios_base.html',0,'std::ios_base::ios_base()'],['http://en.cppreference.com/w/cpp/io/ios_base.html',0,'std::ios_base']]],
   ['iostream_77',['iostream',['http://en.cppreference.com/w/cpp/io/basic_iostream/basic_iostream.html',0,'std::iostream::iostream()'],['http://en.cppreference.com/w/cpp/io/basic_iostream.html',0,'std::iostream']]],

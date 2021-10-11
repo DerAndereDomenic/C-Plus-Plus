@@ -39,7 +39,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../da/d19/classprobability_1_1geometric__dist_1_1geometric__distribution.html#ae2e9e35714c138f536c1b9915c5497b4" target="_top" xlink:title="The inverse cumulative distribution function.">
+<g id="a_node3"><a xlink:href="../../da/d19/classprobability_1_1geometric__dist_1_1geometric__distribution.html#aaf762e88c66918d7afda4234f28a7ddf" target="_top" xlink:title="The inverse cumulative distribution function.">
 <polygon fill="white" stroke="black" points="177,-0.5 177,-41.5 339,-41.5 339,-0.5 177,-0.5"/>
 <text text-anchor="start" x="185" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">probability::geometric</text>
 <text text-anchor="start" x="185" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">_dist::geometric_distribution</text>

@@ -44,7 +44,7 @@ var searchData=
   ['interpolationsearch_41',['InterpolationSearch',['../df/d39/interpolation__search2_8cpp.html#aa3ec659ec8394d186c761df81ad1f629',1,'interpolation_search2.cpp']]],
   ['intervals_42',['intervals',['http://en.cppreference.com/w/cpp/numeric/random/piecewise_constant_distribution/params.html',0,'std::piecewise_constant_distribution::intervals()'],['http://en.cppreference.com/w/cpp/numeric/random/piecewise_linear_distribution/params.html',0,'std::piecewise_linear_distribution::intervals()']]],
   ['invalid_5fargument_43',['invalid_argument',['http://en.cppreference.com/w/cpp/error/invalid_argument.html',0,'std::invalid_argument']]],
-  ['inverse_5fcumulative_5fdistribution_44',['inverse_cumulative_distribution',['../da/d19/classprobability_1_1geometric__dist_1_1geometric__distribution.html#ae2e9e35714c138f536c1b9915c5497b4',1,'probability::geometric_dist::geometric_distribution']]],
+  ['inverse_5fcumulative_5fdistribution_44',['inverse_cumulative_distribution',['../da/d19/classprobability_1_1geometric__dist_1_1geometric__distribution.html#aaf762e88c66918d7afda4234f28a7ddf',1,'probability::geometric_dist::geometric_distribution']]],
   ['ios_5fbase_45',['ios_base',['http://en.cppreference.com/w/cpp/io/ios_base/ios_base.html',0,'std::ios_base']]],
   ['iostream_46',['iostream',['http://en.cppreference.com/w/cpp/io/basic_iostream/basic_iostream.html',0,'std::iostream']]],
   ['iota_47',['iota',['http://en.cppreference.com/w/cpp/algorithm/iota.html',0,'std']]],

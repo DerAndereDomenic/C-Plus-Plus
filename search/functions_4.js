@@ -94,7 +94,7 @@ var searchData=
   ['double_5ffactorial_5fiterative_91',['double_factorial_iterative',['../d7/d89/double__factorial_8cpp.html#a0a3c417360400093891a9ccddaa4be26',1,'double_factorial.cpp']]],
   ['double_5ffactorial_5frecursive_92',['double_factorial_recursive',['../d7/d89/double__factorial_8cpp.html#a68ba20fed2ce427f6469c7689437829d',1,'double_factorial.cpp']]],
   ['doublehash_93',['doubleHash',['../d0/d65/namespacedouble__hashing.html#a8f8ff4fb018e1bb32d67d8a1885d3200',1,'double_hashing']]],
-  ['draw_5fsample_94',['draw_sample',['../da/d19/classprobability_1_1geometric__dist_1_1geometric__distribution.html#a871b4877a7d077cd32c062198b3b2ac0',1,'probability::geometric_dist::geometric_distribution']]],
+  ['draw_5fsample_94',['draw_sample',['../da/d19/classprobability_1_1geometric__dist_1_1geometric__distribution.html#a8aae1cebcf42ed2332f1c7217c401aa3',1,'probability::geometric_dist::geometric_distribution']]],
   ['drelu_95',['drelu',['../d2/d58/neural__network_8cpp.html#aa69e95a34054d7989bf446f96b2ffaf9',1,'machine_learning::neural_network::activations']]],
   ['dsigmoid_96',['dsigmoid',['../d2/d58/neural__network_8cpp.html#a76eb66212d577f948a457b6e29d87c46',1,'machine_learning::neural_network::activations']]],
   ['dtanh_97',['dtanh',['../d2/d58/neural__network_8cpp.html#a2a5e874b9774aa5362dbcf288828b95c',1,'machine_learning::neural_network::activations']]],

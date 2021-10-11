@@ -53,7 +53,7 @@ var searchData=
   ['exit_50',['exit',['http://en.cppreference.com/w/cpp/utility/program/exit.html',0,'std']]],
   ['exp_51',['exp',['http://en.cppreference.com/w/cpp/numeric/math/exp.html',0,'std::exp()'],['../df/d6b/namespaceciphers_1_1elliptic__curve__key__exchange.html#ac00616a4e40d3cd5cfb4da87d9ff9af0',1,'ciphers::elliptic_curve_key_exchange::exp()']]],
   ['exp2_52',['exp2',['http://en.cppreference.com/w/cpp/numeric/math/exp2.html',0,'std']]],
-  ['expected_5fvalue_53',['expected_value',['../da/d19/classprobability_1_1geometric__dist_1_1geometric__distribution.html#ad3eed2b0bedece54f9ef73fac6ea1970',1,'probability::geometric_dist::geometric_distribution']]],
+  ['expected_5fvalue_53',['expected_value',['../da/d19/classprobability_1_1geometric__dist_1_1geometric__distribution.html#a41051365f8ac7700f2ed5880a6760413',1,'probability::geometric_dist::geometric_distribution']]],
   ['expired_54',['expired',['http://en.cppreference.com/w/cpp/memory/weak_ptr/expired.html',0,'std::weak_ptr']]],
   ['explore_55',['explore',['../df/dce/namespacegraph.html#a3ae80bc4c6a79d041b4f3a6589eb7fb8',1,'graph::explore(const std::vector&lt; std::vector&lt; int &gt; &gt; *adj, int u, std::vector&lt; bool &gt; *visited)'],['../df/dce/namespacegraph.html#a64c1db5aad7502c6f08e4652f6edd463',1,'graph::explore(const std::vector&lt; std::vector&lt; size_t &gt; &gt; &amp;adj, size_t v, std::vector&lt; bool &gt; *visited)']]],
   ['expm1_56',['expm1',['http://en.cppreference.com/w/cpp/numeric/math/expm1.html',0,'std']]],
