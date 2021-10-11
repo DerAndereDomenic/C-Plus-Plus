@@ -1,6 +1,6 @@
 <map id="main" name="main">
 <area shape="rect" id="node1" title="Main function." alt="" coords="5,275,56,301"/>
-<area shape="rect" id="node2" href="$de/d72/geometric__dist_8cpp.html#aa8dca7b867074164d5f45b0f3851269d" title="Self&#45;test implementation." alt="" coords="104,275,148,301"/>
+<area shape="rect" id="node2" href="$de/d72/geometric__dist_8cpp.html#aa8dca7b867074164d5f45b0f3851269d" title="Self&#45;test implementations." alt="" coords="104,275,148,301"/>
 <area shape="rect" id="node3" href="$da/d19/classprobability_1_1geometric__dist_1_1geometric__distribution.html#aa43332f78dbb486f356e663351887223" title="The cumulative distribution function." alt="" coords="432,5,620,61"/>
 <area shape="rect" id="node5" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/io/manip/endl.html#" title=" " alt="" coords="490,275,562,301"/>
 <area shape="rect" id="node6" href="$da/d19/classprobability_1_1geometric__dist_1_1geometric__distribution.html#ad3eed2b0bedece54f9ef73fac6ea1970" title="The expected value of a geometrically distributed random variable X." alt="" coords="432,325,620,381"/>
