@@ -2,7 +2,7 @@ var searchData=
 [
   ['s_0',['s',['http://en.cppreference.com/w/cpp/numeric/random/lognormal_distribution/params.html',0,'std::lognormal_distribution']]],
   ['saddleback_1',['saddleback',['../d3/d22/saddleback__search_8cpp.html#ad1e0ca34797d88490747c08eca70a2e6',1,'search::saddleback']]],
-  ['sample_5ftest_2',['sample_test',['../de/d72/geometric__dist_8cpp.html#acecd4e468d60302108950d98339a80c6',1,'geometric_dist.cpp']]],
+  ['sample_5ftest_2',['sample_test',['../de/d72/geometric__dist_8cpp.html#a70fd1cc5c3a2813f28683dc75dcd65b6',1,'geometric_dist.cpp']]],
   ['save_5f2d_5fdata_3',['save_2d_data',['../d9/d66/group__machine__learning.html#gabc90175770bf0d5853c466e14993a08c',1,'kohonen_som_topology.cpp']]],
   ['save_5fexact_5fsolution_4',['save_exact_solution',['../db/dd3/ode__forward__euler_8cpp.html#aa13517b8e5de1b75592052db7f7e237f',1,'save_exact_solution(const double &amp;X0, const double &amp;X_MAX, const double &amp;step_size, const std::valarray&lt; double &gt; &amp;Y0):&#160;ode_forward_euler.cpp'],['../d6/dd3/ode__midpoint__euler_8cpp.html#aa13517b8e5de1b75592052db7f7e237f',1,'save_exact_solution(const double &amp;X0, const double &amp;X_MAX, const double &amp;step_size, const std::valarray&lt; double &gt; &amp;Y0):&#160;ode_midpoint_euler.cpp'],['../d3/d06/ode__semi__implicit__euler_8cpp.html#aa13517b8e5de1b75592052db7f7e237f',1,'save_exact_solution(const double &amp;X0, const double &amp;X_MAX, const double &amp;step_size, const std::valarray&lt; double &gt; &amp;Y0):&#160;ode_semi_implicit_euler.cpp']]],
   ['save_5fmodel_5',['save_model',['../d4/df4/classmachine__learning_1_1neural__network_1_1_neural_network.html#a4f14e473bb0722c6490b9dc8da5982aa',1,'machine_learning::neural_network::NeuralNetwork']]],
