@@ -172,8 +172,8 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>p</b></td></tr>
   </table>
   </dd>
 </dl>
-<div class="fragment"><div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>: <a class="code hl_variable" href="../../dc/d97/classprobability_1_1geometric__distribution.html#ab50d8412f05a288ce6ddab76f95aa573">p</a>(<a class="code hl_variable" href="../../dc/d97/classprobability_1_1geometric__distribution.html#ab50d8412f05a288ce6ddab76f95aa573">p</a>) {}</div>
-<div class="ttc" id="aclassprobability_1_1geometric__distribution_html_ab50d8412f05a288ce6ddab76f95aa573"><div class="ttname"><a href="../../dc/d97/classprobability_1_1geometric__distribution.html#ab50d8412f05a288ce6ddab76f95aa573">probability::geometric_distribution::p</a></div><div class="ttdeci">float p</div><div class="ttdoc">The succes probability p.</div><div class="ttdef"><b>Definition:</b> geometric_dist.cpp:47</div></div>
+<div class="fragment"><div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>: <a class="code hl_variable" href="../../dc/d97/classprobability_1_1geometric__distribution.html#ab50d8412f05a288ce6ddab76f95aa573">p</a>(<a class="code hl_variable" href="../../dc/d97/classprobability_1_1geometric__distribution.html#ab50d8412f05a288ce6ddab76f95aa573">p</a>) {}</div>
+<div class="ttc" id="aclassprobability_1_1geometric__distribution_html_ab50d8412f05a288ce6ddab76f95aa573"><div class="ttname"><a href="../../dc/d97/classprobability_1_1geometric__distribution.html#ab50d8412f05a288ce6ddab76f95aa573">probability::geometric_distribution::p</a></div><div class="ttdeci">float p</div><div class="ttdoc">The succes probability p.</div><div class="ttdef"><b>Definition:</b> geometric_dist.cpp:50</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -210,9 +210,9 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>p</b></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The probability to have success within k trials </dd></dl>
-<div class="fragment"><div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>                                                     {</div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>        <span class="keywordflow">return</span> 1.0f - <a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/numeric/math/pow.html">std::pow</a>((1.0f - <a class="code hl_variable" href="../../dc/d97/classprobability_1_1geometric__distribution.html#ab50d8412f05a288ce6ddab76f95aa573">p</a>), <span class="keyword">static_cast&lt;</span><span class="keywordtype">float</span><span class="keyword">&gt;</span>(k));</div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>    }</div>
+<div class="fragment"><div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>                                                     {</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>        <span class="keywordflow">return</span> 1.0f - <a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/numeric/math/pow.html">std::pow</a>((1.0f - <a class="code hl_variable" href="../../dc/d97/classprobability_1_1geometric__distribution.html#ab50d8412f05a288ce6ddab76f95aa573">p</a>), <span class="keyword">static_cast&lt;</span><span class="keywordtype">float</span><span class="keyword">&gt;</span>(k));</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    }</div>
 <div class="ttc" id="apow_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/numeric/math/pow.html">std::pow</a></div><div class="ttdeci">T pow(T... args)</div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -248,16 +248,15 @@ Here is the call graph for this function:</div>
 
 <p>Generates a (discrete) sample according to the geometrical distribution. </p>
 <dl class="section return"><dt>Returns</dt><dd>A geometrically distributed number in [1,\infty) </dd></dl>
-<div class="fragment"><div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>                           {</div>
-<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>        <span class="keywordtype">float</span> uniform_sample = <a class="code hl_function" href="../../d4/ded/namespaceprobability.html#a29f509e53d558dd9cb318048f2454d4b">generate_uniform</a>();</div>
-<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>        <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>uint32_t<span class="keyword">&gt;</span>(<a class="code hl_function" href="../../dc/d97/classprobability_1_1geometric__distribution.html#afe8e3cec3f9ec89b697e674d1a4453cd">inverse_cumulative_distribution</a>(uniform_sample)) + 1;</div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>    }</div>
-<div class="ttc" id="aclassprobability_1_1geometric__distribution_html_afe8e3cec3f9ec89b697e674d1a4453cd"><div class="ttname"><a href="../../dc/d97/classprobability_1_1geometric__distribution.html#afe8e3cec3f9ec89b697e674d1a4453cd">probability::geometric_distribution::inverse_cumulative_distribution</a></div><div class="ttdeci">float inverse_cumulative_distribution(const float &amp;cdf)</div><div class="ttdoc">The inverse cumulative distribution function.</div><div class="ttdef"><b>Definition:</b> geometric_dist.cpp:108</div></div>
-<div class="ttc" id="anamespaceprobability_html_a29f509e53d558dd9cb318048f2454d4b"><div class="ttname"><a href="../../d4/ded/namespaceprobability.html#a29f509e53d558dd9cb318048f2454d4b">probability::generate_uniform</a></div><div class="ttdeci">float generate_uniform()</div><div class="ttdoc">Returns a random number between [0,1].</div><div class="ttdef"><b>Definition:</b> geometric_dist.cpp:37</div></div>
+<div class="fragment"><div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>                           {</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>        <span class="keywordtype">float</span> uniform_sample = generate_uniform();</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>        <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>uint32_t<span class="keyword">&gt;</span>(<a class="code hl_function" href="../../dc/d97/classprobability_1_1geometric__distribution.html#afe8e3cec3f9ec89b697e674d1a4453cd">inverse_cumulative_distribution</a>(uniform_sample)) + 1;</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>    }</div>
+<div class="ttc" id="aclassprobability_1_1geometric__distribution_html_afe8e3cec3f9ec89b697e674d1a4453cd"><div class="ttname"><a href="../../dc/d97/classprobability_1_1geometric__distribution.html#afe8e3cec3f9ec89b697e674d1a4453cd">probability::geometric_distribution::inverse_cumulative_distribution</a></div><div class="ttdeci">float inverse_cumulative_distribution(const float &amp;cdf)</div><div class="ttdoc">The inverse cumulative distribution function.</div><div class="ttdef"><b>Definition:</b> geometric_dist.cpp:111</div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d97/classprobability_1_1geometric__distribution_a8a3ce0b03a692250c1a314eb85110316_cgraph.svg" width="518" height="134"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d97/classprobability_1_1geometric__distribution_a8a3ce0b03a692250c1a314eb85110316_cgraph.svg" width="518" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -288,9 +287,9 @@ Here is the call graph for this function:</div>
 
 <p>The expected value of a geometrically distributed random variable X. </p>
 <dl class="section return"><dt>Returns</dt><dd>E[X] = 1/p </dd></dl>
-<div class="fragment"><div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>                           {</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>       <span class="keywordflow">return</span> 1.0f/ <a class="code hl_variable" href="../../dc/d97/classprobability_1_1geometric__distribution.html#ab50d8412f05a288ce6ddab76f95aa573">p</a>;</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    }</div>
+<div class="fragment"><div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>                           {</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>       <span class="keywordflow">return</span> 1.0f/ <a class="code hl_variable" href="../../dc/d97/classprobability_1_1geometric__distribution.html#ab50d8412f05a288ce6ddab76f95aa573">p</a>;</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -326,9 +325,9 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The number of (exact) trials. </dd></dl>
-<div class="fragment"><div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>                                                            {</div>
-<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>        <span class="keywordflow">return</span> <a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/numeric/math/log.html">std::log</a>(1.0f - cdf) / <a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/numeric/math/log.html">std::log</a>(1.0f - <a class="code hl_variable" href="../../dc/d97/classprobability_1_1geometric__distribution.html#ab50d8412f05a288ce6ddab76f95aa573">p</a>);</div>
-<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>    }</div>
+<div class="fragment"><div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>                                                            {</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>        <span class="keywordflow">return</span> <a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/numeric/math/log.html">std::log</a>(1.0f - cdf) / <a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/numeric/math/log.html">std::log</a>(1.0f - <a class="code hl_variable" href="../../dc/d97/classprobability_1_1geometric__distribution.html#ab50d8412f05a288ce6ddab76f95aa573">p</a>);</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    }</div>
 <div class="ttc" id="alog_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/numeric/math/log.html">std::log</a></div><div class="ttdeci">T log(T... args)</div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -371,9 +370,9 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A number between [0,1] according to p * (1-p)^{k-1} </dd></dl>
-<div class="fragment"><div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>                                                 {</div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>        <span class="keywordflow">return</span> <a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/numeric/math/pow.html">std::pow</a>((1.0f - <a class="code hl_variable" href="../../dc/d97/classprobability_1_1geometric__distribution.html#ab50d8412f05a288ce6ddab76f95aa573">p</a>), <span class="keyword">static_cast&lt;</span><span class="keywordtype">float</span><span class="keyword">&gt;</span>(k - 1)) * <a class="code hl_variable" href="../../dc/d97/classprobability_1_1geometric__distribution.html#ab50d8412f05a288ce6ddab76f95aa573">p</a>;</div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>    }</div>
+<div class="fragment"><div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>                                                 {</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>        <span class="keywordflow">return</span> <a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/numeric/math/pow.html">std::pow</a>((1.0f - <a class="code hl_variable" href="../../dc/d97/classprobability_1_1geometric__distribution.html#ab50d8412f05a288ce6ddab76f95aa573">p</a>), <span class="keyword">static_cast&lt;</span><span class="keywordtype">float</span><span class="keyword">&gt;</span>(k - 1)) * <a class="code hl_variable" href="../../dc/d97/classprobability_1_1geometric__distribution.html#ab50d8412f05a288ce6ddab76f95aa573">p</a>;</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>    }</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -426,12 +425,12 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The probability of having success within a range of tries [min_tries, max_tries] </dd></dl>
-<div class="fragment"><div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>                                                                                                                   {</div>
-<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>        <span class="keywordtype">float</span> cdf_lower = <a class="code hl_function" href="../../dc/d97/classprobability_1_1geometric__distribution.html#a7362f7161d86cd025888e55158033088">cumulative_distribution</a>(min_tries - 1);</div>
-<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>        <span class="keywordtype">float</span> cdf_upper = max_tries == <a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/types/numeric_limits/max.html">std::numeric_limits&lt;uint32_t&gt;::max</a>() ? 1.0f : <a class="code hl_function" href="../../dc/d97/classprobability_1_1geometric__distribution.html#a7362f7161d86cd025888e55158033088">cumulative_distribution</a>(max_tries);</div>
-<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>        <span class="keywordflow">return</span> cdf_upper - cdf_lower;</div>
-<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>    }</div>
-<div class="ttc" id="aclassprobability_1_1geometric__distribution_html_a7362f7161d86cd025888e55158033088"><div class="ttname"><a href="../../dc/d97/classprobability_1_1geometric__distribution.html#a7362f7161d86cd025888e55158033088">probability::geometric_distribution::cumulative_distribution</a></div><div class="ttdeci">float cumulative_distribution(const uint32_t &amp;k)</div><div class="ttdoc">The cumulative distribution function.</div><div class="ttdef"><b>Definition:</b> geometric_dist.cpp:97</div></div>
+<div class="fragment"><div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>                                                                                                                   {</div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>        <span class="keywordtype">float</span> cdf_lower = <a class="code hl_function" href="../../dc/d97/classprobability_1_1geometric__distribution.html#a7362f7161d86cd025888e55158033088">cumulative_distribution</a>(min_tries - 1);</div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>        <span class="keywordtype">float</span> cdf_upper = max_tries == <a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/types/numeric_limits/max.html">std::numeric_limits&lt;uint32_t&gt;::max</a>() ? 1.0f : <a class="code hl_function" href="../../dc/d97/classprobability_1_1geometric__distribution.html#a7362f7161d86cd025888e55158033088">cumulative_distribution</a>(max_tries);</div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>        <span class="keywordflow">return</span> cdf_upper - cdf_lower;</div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>    }</div>
+<div class="ttc" id="aclassprobability_1_1geometric__distribution_html_a7362f7161d86cd025888e55158033088"><div class="ttname"><a href="../../dc/d97/classprobability_1_1geometric__distribution.html#a7362f7161d86cd025888e55158033088">probability::geometric_distribution::cumulative_distribution</a></div><div class="ttdeci">float cumulative_distribution(const uint32_t &amp;k)</div><div class="ttdoc">The cumulative distribution function.</div><div class="ttdef"><b>Definition:</b> geometric_dist.cpp:100</div></div>
 <div class="ttc" id="amax_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/types/numeric_limits/max.html">std::numeric_limits::max</a></div><div class="ttdeci">T max(T... args)</div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -467,10 +466,10 @@ Here is the call graph for this function:</div>
 
 <p>The standard deviation of a geometrically distributed random variable X. </p>
 <dl class="section return"><dt>Returns</dt><dd>\sigma = \sqrt{V[X]} </dd></dl>
-<div class="fragment"><div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>                               {</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>       <span class="keywordflow">return</span> <a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/numeric/math/sqrt.html">std::sqrt</a>(<a class="code hl_function" href="../../dc/d97/classprobability_1_1geometric__distribution.html#af466b4e51c24c3d71ac11d1a957411d4">variance</a>());</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    }</div>
-<div class="ttc" id="aclassprobability_1_1geometric__distribution_html_af466b4e51c24c3d71ac11d1a957411d4"><div class="ttname"><a href="../../dc/d97/classprobability_1_1geometric__distribution.html#af466b4e51c24c3d71ac11d1a957411d4">probability::geometric_distribution::variance</a></div><div class="ttdeci">float variance()</div><div class="ttdoc">The variance of a geometrically distributed random variable X.</div><div class="ttdef"><b>Definition:</b> geometric_dist.cpp:68</div></div>
+<div class="fragment"><div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>                               {</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>       <span class="keywordflow">return</span> <a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/numeric/math/sqrt.html">std::sqrt</a>(<a class="code hl_function" href="../../dc/d97/classprobability_1_1geometric__distribution.html#af466b4e51c24c3d71ac11d1a957411d4">variance</a>());</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    }</div>
+<div class="ttc" id="aclassprobability_1_1geometric__distribution_html_af466b4e51c24c3d71ac11d1a957411d4"><div class="ttname"><a href="../../dc/d97/classprobability_1_1geometric__distribution.html#af466b4e51c24c3d71ac11d1a957411d4">probability::geometric_distribution::variance</a></div><div class="ttdeci">float variance()</div><div class="ttdoc">The variance of a geometrically distributed random variable X.</div><div class="ttdef"><b>Definition:</b> geometric_dist.cpp:71</div></div>
 <div class="ttc" id="asqrt_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/numeric/math/sqrt.html">std::sqrt</a></div><div class="ttdeci">T sqrt(T... args)</div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -506,9 +505,9 @@ Here is the call graph for this function:</div>
 
 <p>The variance of a geometrically distributed random variable X. </p>
 <dl class="section return"><dt>Returns</dt><dd>V[X] = (1 - p) / p^2 </dd></dl>
-<div class="fragment"><div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>                     {</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>       <span class="keywordflow">return</span> (1.0f - <a class="code hl_variable" href="../../dc/d97/classprobability_1_1geometric__distribution.html#ab50d8412f05a288ce6ddab76f95aa573">p</a>) / (<a class="code hl_variable" href="../../dc/d97/classprobability_1_1geometric__distribution.html#ab50d8412f05a288ce6ddab76f95aa573">p</a> * <a class="code hl_variable" href="../../dc/d97/classprobability_1_1geometric__distribution.html#ab50d8412f05a288ce6ddab76f95aa573">p</a>);</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    }</div>
+<div class="fragment"><div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>                     {</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>       <span class="keywordflow">return</span> (1.0f - <a class="code hl_variable" href="../../dc/d97/classprobability_1_1geometric__distribution.html#ab50d8412f05a288ce6ddab76f95aa573">p</a>) / (<a class="code hl_variable" href="../../dc/d97/classprobability_1_1geometric__distribution.html#ab50d8412f05a288ce6ddab76f95aa573">p</a> * <a class="code hl_variable" href="../../dc/d97/classprobability_1_1geometric__distribution.html#ab50d8412f05a288ce6ddab76f95aa573">p</a>);</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    }</div>
 </div><!-- fragment -->
 </div>
 </div>
