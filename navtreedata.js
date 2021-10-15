@@ -26,10 +26,10 @@ var NAVTREE =
 [
   [ "Algorithms_in_C++", "index.html", [
     [ "The Algorithms - C++", "index.html", [
-      [ "Overview", "index.html#autotoc_md91", null ],
-      [ "Features", "index.html#autotoc_md92", null ],
-      [ "Documentation", "index.html#autotoc_md93", null ],
-      [ "Contributions", "index.html#autotoc_md94", null ]
+      [ "Overview", "index.html#autotoc_md92", null ],
+      [ "Features", "index.html#autotoc_md93", null ],
+      [ "Documentation", "index.html#autotoc_md94", null ],
+      [ "Contributions", "index.html#autotoc_md95", null ]
     ] ],
     [ "Contributor Covenant Code of Conduct", "d4/d4c/md__c_o_d_e__o_f__c_o_n_d_u_c_t.html", [
       [ "Our Pledge", "d4/d4c/md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md4", null ],
@@ -68,25 +68,26 @@ var NAVTREE =
     [ "Backtracking", "d5/d88/md__d_i_r_e_c_t_o_r_y.html", [
       [ "Bit Manipulation", "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md38", null ],
       [ "Ciphers", "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md39", null ],
-      [ "Data Structures", "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md40", null ],
-      [ "Divide And Conquer", "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md41", null ],
-      [ "Dynamic Programming", "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md42", null ],
-      [ "Geometry", "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md43", null ],
-      [ "Graph", "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md44", null ],
-      [ "Graphics", "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md45", null ],
-      [ "Greedy Algorithms", "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md46", null ],
-      [ "Hashing", "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md47", null ],
-      [ "Linear Algebra", "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md48", null ],
-      [ "Machine Learning", "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md49", null ],
-      [ "Math", "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md50", null ],
-      [ "Numerical Methods", "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md51", null ],
-      [ "Operations On Datastructures", "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md52", null ],
-      [ "Others", "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md53", null ],
-      [ "Probability", "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md54", null ],
-      [ "Range Queries", "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md55", null ],
-      [ "Search", "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md56", null ],
-      [ "Sorting", "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md57", null ],
-      [ "Strings", "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md58", null ]
+      [ "Cpu Scheduling Algorithms", "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md40", null ],
+      [ "Data Structures", "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md41", null ],
+      [ "Divide And Conquer", "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md42", null ],
+      [ "Dynamic Programming", "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md43", null ],
+      [ "Geometry", "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md44", null ],
+      [ "Graph", "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md45", null ],
+      [ "Graphics", "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md46", null ],
+      [ "Greedy Algorithms", "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md47", null ],
+      [ "Hashing", "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md48", null ],
+      [ "Linear Algebra", "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md49", null ],
+      [ "Machine Learning", "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md50", null ],
+      [ "Math", "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md51", null ],
+      [ "Numerical Methods", "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md52", null ],
+      [ "Operations On Datastructures", "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md53", null ],
+      [ "Others", "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md54", null ],
+      [ "Probability", "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md55", null ],
+      [ "Range Queries", "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md56", null ],
+      [ "Search", "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md57", null ],
+      [ "Sorting", "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md58", null ],
+      [ "Strings", "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md59", null ]
     ] ],
     [ "Prime factorization", "d7/d7f/section.html", null ],
     [ "Guidelines for reviewers and maintainers", "dc/db4/md__r_e_v_i_e_w_e_r__c_o_d_e.html", null ],
@@ -133,16 +134,17 @@ var NAVTREEINDEX =
 "cpp/iterator/distance.html",
 "cpp/thread/lock.html",
 "d1/d83/classuint256__t.html#aa0e532832640e9fe273b35c481b18963",
-"d2/dcf/namespacestatistics.html",
-"d4/d68/qr__decompose_8h.html#a6d3c7dce1f142141f509d09f6c0e25dc",
-"d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md51",
-"d6/d80/double__hash__hash__table_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4",
-"d8/d69/classgraph_1_1_h_k_graph.html#a35893def7a1c5cd60907b4893117796f",
-"d9/d44/magic__number_8cpp.html#a8d8e81a7cd59644b311ef9adb268f5f0",
-"da/db8/count__of__set__bits_8cpp.html#a1f6a583b73a3e85c2d5121ed3d1c7d8a",
-"db/ddc/namespaceaystar__search.html",
-"dd/d9c/classmachine__learning_1_1aystar__search_1_1_eight_puzzle.html#aa17e0227321b109ed91e156ac1332915",
-"df/dce/namespacegraph.html#a83ab16e96cec644109a58dfc9329bc2b"
+"d2/d8a/classrange__queries_1_1heavy__light__decomposition_1_1_h_l_d.html#af64848d6630c39d0f09ce2359cc7c4f8",
+"d4/d4c/md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md6",
+"d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md40",
+"d6/d7b/sudoku__solve_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4",
+"d8/d53/modular__inverse__fermat__little__theorem_8cpp.html#a4c6eefd1254eab3e8d34bf02c205e0f4",
+"d9/d35/classrange__queries_1_1heavy__light__decomposition_1_1_s_g.html#a41c733f5f5e262b308f7cb95c88c1e74",
+"da/d9a/palindrome__of__number_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4",
+"db/dc4/floyd__cycle__detection__algo_8cpp.html#a81ffc7a2c6bf530c8a496864e7a3ad88",
+"dd/d9c/classmachine__learning_1_1aystar__search_1_1_eight_puzzle.html#a26a976171392d257ca0f814ed73e0658",
+"df/d6b/namespaceciphers_1_1elliptic__curve__key__exchange.html#af0a6e3521629c25c2b5d620f26429830",
+""
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
